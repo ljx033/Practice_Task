@@ -1,0 +1,6 @@
+model,dataset,hidden,layers,lr,best_val_acc,best_test_acc,best_epoch,total_time_s,avg_epoch_ms
+GCN,Cora,64,2,0.001,44.8,45.2,5,0.04,8.49
+GCN,Cora,64,2,0.005,74.0,74.2,5,0.03,6.86
+GCN,Cora,64,2,0.01,76.8,77.8,5,0.03,6.59
+GCN,Cora,64,2,0.05,77.2,77.3,3,0.03,6.34
+GCN,Cora,64,2,0.1,74.8,74.9,2,0.03,5.89

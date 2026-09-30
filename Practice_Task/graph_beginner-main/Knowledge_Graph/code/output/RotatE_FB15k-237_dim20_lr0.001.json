@@ -1,0 +1,17 @@
+{
+  "model": "RotatE",
+  "dataset": "FB15k-237",
+  "dim": 20,
+  "epochs": 1,
+  "lr": 0.001,
+  "batch_size": 512,
+  "optimizer": "adam",
+  "total_time_seconds": 216.4017357826233,
+  "test_metrics": {
+    "MRR": 0.024292105808854103,
+    "Hits@1": 0.011971074156463146,
+    "Hits@3": 0.02338024042546749,
+    "Hits@10": 0.047249097377061844
+  },
+  "history": null
+}

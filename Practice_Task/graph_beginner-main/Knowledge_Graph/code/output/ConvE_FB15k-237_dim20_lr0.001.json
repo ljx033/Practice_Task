@@ -1,0 +1,17 @@
+{
+  "model": "ConvE",
+  "dataset": "FB15k-237",
+  "dim": 20,
+  "epochs": 1,
+  "lr": 0.001,
+  "batch_size": 128,
+  "optimizer": "adam",
+  "total_time_seconds": 472.68822956085205,
+  "test_metrics": {
+    "MRR": 0.05217907577753067,
+    "Hits@1": 0.024455193430185318,
+    "Hits@3": 0.06623180210590363,
+    "Hits@10": 0.0898563489317894
+  },
+  "history": null
+}

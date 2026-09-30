@@ -1,0 +1,8 @@
+{
+  "chunk_size": 1024,
+  "overlap": 128,
+  "dim": 512,
+  "n_chunks": 681,
+  "pdf": "E:\\Aljx\\llm-beginner-master\\task-4-rag\\data\\kb.pdf",
+  "embed_model": "E:\\Aljx\\llm-beginner-master\\task-4-rag\\models\\bge-small-zh-v1.5"
+}

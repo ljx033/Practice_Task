@@ -1,0 +1,112 @@
+[
+  {
+    "mode": "chunk",
+    "chunk_size": 128,
+    "overlap": 16,
+    "n_chunks": 5641,
+    "recall@1": 0.2,
+    "recall@3": 0.533,
+    "recall@5": 0.567,
+    "recall@10": 0.667,
+    "mrr": 0.366,
+    "build_sec": 9.2
+  },
+  {
+    "mode": "chunk",
+    "chunk_size": 256,
+    "overlap": 32,
+    "n_chunks": 2763,
+    "recall@1": 0.367,
+    "recall@3": 0.567,
+    "recall@5": 0.667,
+    "recall@10": 0.8,
+    "mrr": 0.496,
+    "build_sec": 0.2
+  },
+  {
+    "mode": "chunk",
+    "chunk_size": 512,
+    "overlap": 64,
+    "n_chunks": 1368,
+    "recall@1": 0.4,
+    "recall@3": 0.567,
+    "recall@5": 0.667,
+    "recall@10": 0.8,
+    "mrr": 0.514,
+    "build_sec": 0.2
+  },
+  {
+    "mode": "chunk",
+    "chunk_size": 1024,
+    "overlap": 128,
+    "n_chunks": 681,
+    "recall@1": 0.4,
+    "recall@3": 0.567,
+    "recall@5": 0.733,
+    "recall@10": 0.833,
+    "mrr": 0.522,
+    "build_sec": 0.2
+  },
+  {
+    "mode": "rerank",
+    "variant": "no_rerank",
+    "chunk_size": 512,
+    "n_chunks": 1368,
+    "recall@1": 0.4,
+    "recall@3": 0.567,
+    "recall@5": 0.667,
+    "recall@10": 0.8,
+    "mrr": 0.514,
+    "sec": 0.1
+  },
+  {
+    "mode": "rerank",
+    "variant": "with_rerank",
+    "chunk_size": 512,
+    "recall_k": 20,
+    "rerank_top": 5,
+    "n_chunks": 1368,
+    "recall@1": 0.567,
+    "recall@3": 0.833,
+    "recall@5": 0.9,
+    "recall@10": 0.9,
+    "mrr": 0.698,
+    "sec": 4.8
+  },
+  {
+    "mode": "rewrite",
+    "variant": "raw",
+    "chunk_size": 512,
+    "n_chunks": 1368,
+    "recall@1": 0.4,
+    "recall@3": 0.567,
+    "recall@5": 0.667,
+    "recall@10": 0.8,
+    "mrr": 0.514,
+    "sec": 0.1
+  },
+  {
+    "mode": "rewrite",
+    "variant": "llm_rewrite",
+    "chunk_size": 512,
+    "n_chunks": 1368,
+    "recall@1": 0.4,
+    "recall@3": 0.533,
+    "recall@5": 0.6,
+    "recall@10": 0.8,
+    "mrr": 0.505,
+    "sec": 11.0
+  },
+  {
+    "mode": "rewrite",
+    "variant": "hyde",
+    "chunk_size": 512,
+    "n_chunks": 1368,
+    "recall@1": 0.433,
+    "recall@3": 0.633,
+    "recall@5": 0.767,
+    "recall@10": 0.933,
+    "mrr": 0.575,
+    "sec": 45.8
+  }
+]

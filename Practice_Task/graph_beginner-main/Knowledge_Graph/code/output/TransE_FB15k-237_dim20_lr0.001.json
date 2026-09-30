@@ -1,0 +1,17 @@
+{
+  "model": "TransE",
+  "dataset": "FB15k-237",
+  "dim": 20,
+  "epochs": 1,
+  "lr": 0.001,
+  "batch_size": 512,
+  "optimizer": "adam",
+  "total_time_seconds": 225.2424919605255,
+  "test_metrics": {
+    "MRR": 0.004358457867056131,
+    "Hits@1": 0.001710153417661786,
+    "Hits@3": 0.0036890453193336725,
+    "Hits@10": 0.007402521092444658
+  },
+  "history": null
+}

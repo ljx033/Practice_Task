@@ -1,0 +1,1 @@
+Transformer为何需要位置编码？RoPE的基本思想是什么？

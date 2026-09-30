@@ -1,0 +1,25 @@
+model,dataset,hidden,layers,lr,best_val_acc,best_test_acc,best_epoch,total_time_s,avg_epoch_ms,mode,batch_size,num_neighbors
+GCN,Cora,64,2,0.01,76.8,77.8,5,0.23,46.85,Full-Graph,,
+GCN,Cora,64,2,0.01,77.8,77.4,3,0.4,80.19,Sampling,64.0,"[10, 10]"
+GAT,Cora,64,2,0.01,69.0,67.9,5,0.07,13.18,Full-Graph,,
+GAT,Cora,64,2,0.01,68.8,72.0,5,0.58,115.94,Sampling,64.0,"[10, 10]"
+GraphSAGE,Cora,64,2,0.01,75.4,77.3,4,0.04,7.81,Full-Graph,,
+GraphSAGE,Cora,64,2,0.01,77.2,77.5,3,0.39,77.58,Sampling,64.0,"[10, 10]"
+GIN,Cora,64,2,0.01,46.0,45.6,4,0.03,6.4,Full-Graph,,
+GIN,Cora,64,2,0.01,77.0,77.4,5,0.39,77.8,Sampling,64.0,"[10, 10]"
+GCN,Citeseer,64,2,0.01,54.2,53.0,5,0.04,8.66,Full-Graph,,
+GCN,Citeseer,64,2,0.01,69.0,67.1,5,0.51,101.04,Sampling,64.0,"[10, 10]"
+GAT,Citeseer,64,2,0.01,63.0,60.0,5,0.07,13.16,Full-Graph,,
+GAT,Citeseer,64,2,0.01,65.0,64.6,5,0.65,130.47,Sampling,64.0,"[10, 10]"
+GraphSAGE,Citeseer,64,2,0.01,47.6,48.3,5,0.05,10.87,Full-Graph,,
+GraphSAGE,Citeseer,64,2,0.01,63.6,63.4,5,0.45,90.4,Sampling,64.0,"[10, 10]"
+GIN,Citeseer,64,2,0.01,42.2,36.7,3,0.04,8.85,Full-Graph,,
+GIN,Citeseer,64,2,0.01,64.4,64.9,5,0.46,91.64,Sampling,64.0,"[10, 10]"
+GCN,Flickr,64,2,0.01,42.94,42.9,5,0.13,26.07,Full-Graph,,
+GCN,Flickr,64,2,0.01,50.84,50.64,2,36.42,7283.73,Sampling,256.0,"[15, 10]"
+GAT,Flickr,64,2,0.01,6.29,6.18,3,0.55,109.36,Full-Graph,,
+GAT,Flickr,64,2,0.01,50.32,50.25,5,42.05,8410.2,Sampling,256.0,"[15, 10]"
+GraphSAGE,Flickr,64,2,0.01,49.91,49.89,5,0.51,101.72,Full-Graph,,
+GraphSAGE,Flickr,64,2,0.01,50.99,51.14,4,38.85,7770.87,Sampling,256.0,"[15, 10]"
+GIN,Flickr,64,2,0.01,42.39,42.34,5,0.35,69.91,Full-Graph,,
+GIN,Flickr,64,2,0.01,48.53,48.33,2,37.1,7420.13,Sampling,256.0,"[15, 10]"
